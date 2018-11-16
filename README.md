@@ -1,2 +1,0 @@
-# knowa
-Created with CodeSandbox
