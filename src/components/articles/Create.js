@@ -4,7 +4,7 @@ export default class Create extends Component {
   render() {
     return (
       <div className="Create container-fluid py-2">
-        <form>
+        <form action="#" method="post" spellCheck={false}>
           <div className="form-row">
             <div className="col-md-4 mb-3">
               <label>Article Name</label>
@@ -32,7 +32,7 @@ export default class Create extends Component {
             </div>
           </div>
           <button className="btn btn-primary" type="submit">
-            Submit form
+            Publish
           </button>
         </form>
       </div>
