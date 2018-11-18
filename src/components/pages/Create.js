@@ -24,6 +24,12 @@ export default class Create extends Component {
               <input type="text" className="form-control is-invalid" required />
               <div className="invalid-feedback">Sample Error Message</div>
             </div>
+            
+            <div className="col-md-4 mb-3">
+              <label>Excerpt</label>
+              <input type="text" className="form-control is-invalid" required />
+              <div className="invalid-feedback">Sample Error Message</div>
+            </div>
 
             <div className="col-md-12 mb-3">
               <div className="form-group">
@@ -40,9 +46,9 @@ export default class Create extends Component {
                   <option selected disabled>
                     Choose Category...
                   </option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option defaultValue="1">One</option>
+                  <option defaultValue="2">Two</option>
+                  <option defaultValue="3">Three</option>
                 </select>
                 <div className="input-group-append">
                   <button className="btn btn-outline-secondary" type="button" >
