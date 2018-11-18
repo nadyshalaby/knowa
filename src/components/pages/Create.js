@@ -32,7 +32,7 @@ export default class Create extends Component {
               </div>
             </div>
 
-            <div className="col-md-4 mb-3">
+            <div className="col-md-12 mb-3">
               <div className="input-group">
                 <select
                   className="custom-select"
@@ -46,7 +46,7 @@ export default class Create extends Component {
                 </select>
                 <div className="input-group-append">
                   <button className="btn btn-outline-secondary" type="button" >
-                    <FontAwesomeIcon icon={faPlus} /> 
+                    <FontAwesomeIcon icon={faPlus} />
                     &nbsp;
                     Add Category
                   </button>
