@@ -1,11 +1,13 @@
 import React from "react";
-import Navbar from "./articles/Navbar";
-import Create from "./articles/Create";
+import Navbar from "./includes/Navbar";
+import Breadcrumb from "./includes/Breadcrumb";
+import Create from "./pages/Create";
 
 const App = () => (
   <div>
     <Navbar />
-    <Create></Create> 
+    <Breadcrumb />
+    <Create />
   </div>
 );
 
