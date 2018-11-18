@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Create extends Component {
   render() {
     return (
-      <div className="Create">
+      <div className="Create container-fluid">
         <form>
           <div className="form-row">
             <div className="col-md-4 mb-3">
