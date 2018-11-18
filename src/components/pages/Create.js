@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
 export default class Create extends Component {
   render() {
     return (
@@ -44,7 +45,11 @@ export default class Create extends Component {
                   <option value="3">Three</option>
                 </select>
                 <div className="input-group-append">
-                  <button className="btn btn-outline-secondary" type="button" />
+                  <button className="btn btn-outline-secondary" type="button" >
+                    <FontAwesomeIcon icon={faPlus} /> 
+                    &nbsp;
+                    Add Category
+                  </button>
                 </div>
               </div>
             </div>
