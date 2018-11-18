@@ -1,8 +1,9 @@
 import React from "react";
+import Navbar from "./articles/Navbar";
 
 const App = () => (
   <div>
-    <h1>hello from App</h1>
+    <Navbar />
   </div>
 );
 
